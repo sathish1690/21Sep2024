@@ -1,0 +1,93 @@
+.about-card{
+    background:#182132;
+    border-radius: 3px;
+    height: 100%;
+}
+section.about-section{
+    background:#010715;
+}
+.container.card-sec {
+    position: relative;
+    top: -50px;
+    display: flex;
+}
+.container.card-sec .card-title{
+    color: #fff;
+    font-size: 20px;
+}
+.container.card-sec .card-text{
+    color: #fff;
+    font-size: 12px;
+}
+.container.card-sec .material-symbols-outlined{
+    color: #db6f02;
+    background: #193c5a;
+    border-radius: 5px;
+}
+.container.card-sec .card-refer .material-symbols-outlined{
+    color: #fff;
+    background: #db6f02;
+    border-radius: 5px;
+}
+.container.card-sec .arrow.material-symbols-outlined.float-end {
+    background: #00001e ! Important;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container.about-cnt h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.container.about-cnt p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+}
+.about-cnt .about-card .card-title{
+    color: #fff;
+    font-size: 15px;
+}
+.about-cnt .about-card .card-text{
+    color: #fff;
+    font-size:12px;
+    line-height: 20px;
+}
+h5.card-title.about-card-title .border-title {
+    background: #2d4166;
+    width: 52px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.card-title.about-compan {
+    color: #fa962c;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.cardimg { 
+    width: 40px;
+    height: 40px;
+    background: #00001e !important;
+    padding: 8px;
+    border-radius: 5px;
+}
+.card-title.about-compan .border-title {
+    background: #fa962c;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.container.about-cnt img {
+    width: 450px;
+}
+
+

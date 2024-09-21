@@ -1,0 +1,162 @@
+section.service-section{
+    background:url(../../../../assets/images/servicemap.png) #182132;
+    background-size: contain;
+}
+.about-card{
+    background: url(../../../../assets/images/buble.png) no-repeat top -98px right -99px #030617;
+    border-radius: 3px;
+}
+.container.card-sec {
+    position: relative;
+    top: -50px;
+}
+.container.card-sec .card-title{
+    color: #fff;
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+}
+.container.card-sec .card-text{
+    color: #fff;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+.container.card-sec .material-symbols-outlined{
+    color: #db6f02;
+    background: #193c5a;
+    border-radius: 5px;
+}
+.container.card-sec .card-refer .material-symbols-outlined{
+    color: #fff;
+    background: #8299ff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.container.card-sec .arrow.material-symbols-outlined.float-end {
+    background: #00001e ! Important;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container.about-cnt h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.container.about-cnt p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+}
+.about-cnt .about-card .card-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.about-cnt .about-card .card-text{
+    color: #fff;
+    font-size:13px;
+}
+.card.about-card span {
+    background: #0e173e;
+    color: #db6f02;
+    padding: 4px;
+}
+
+h5.card-title.about-card-title .border-title {
+    background: #2d4166;
+    width: 52px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.card-title.about-compan {
+    color: #fa962c;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+.card-title.about-compan .border-title {
+    background: #fa962c;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.container.about-cnt img {
+    width: 45px;
+}
+.btn.btn-primary{
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+.myRowStyle {
+    border-bottom: 1px solid #ddd;
+    color: rgb(68, 68, 68);
+    padding: 1em;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .myRowStyle:nth-child(even) {background-color: #ebebeb;}
+  
+  .myRowStyle:hover {background-color: rgb(243, 243, 243);}
+  
+  /* Modal */
+    /* The Modal (background) */
+    .modal {    
+      display: block; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1000; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+  
+    /* Modal Content */
+    .modal-content {
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+      background: url(../../../../assets/images/buble.png) no-repeat top -98px right -99px #030617!important;
+      border-radius: 3px!important;
+      color:#fff!important;
+    }
+    .modal-content h4 {
+        text-transform: uppercase;
+    }
+    /* The Close Button */
+    .close {
+      color: #db6f02;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  
+    .close:hover,
+    .close:focus {
+      color: #db6f02;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .modal-content button.btn.btn-danger {
+        background: linear-gradient(to bottom, #ff9623, #db6f02);
+    }
+    .modal-content p {
+        font-size: 13px;
+      }

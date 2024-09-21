@@ -1,0 +1,126 @@
+section.feedback-section {
+    background: url(../../../../assets/images/servicesbg.png)#010715 no-repeat top;
+    background-size: calc(190% + 1px);
+}
+.card-title.feedback-company{
+    color: #fa962c;;
+    font-size: 15px;
+}
+.card-title.feedback-company .border-title {
+    background: #fa962c;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.container.feedback-cnt h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.container.feedback-cnt p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+.feedback-faq h2.accordion-header{
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    margin: 0px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+span.faq-title {
+    display: inline-block;
+    position: relative;
+    top: -22px;
+    left: 34px;
+    font-size: 17px;
+    font-weight: 500;
+}
+ul.nav.nav-tabs.mt-4 {
+    border: 0px;
+}
+li.nav-item a{
+    background: #131b2a;
+    color: #fff;
+    border-radius: 0px;
+}
+.nav-tabs .nav-item .nav-link.active {
+   
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    border-radius: 0px;
+    color: #333;
+    font-weight: 500;
+}
+.feed-subtitle{
+    font-size: 20px;
+    color: #fff;
+}
+
+.feedback-faq button.accordion-button.collapsed {
+    background: transparent!important;
+    color: #fff!important;
+    border: none!important;
+}
+
+.feedback-faq .accordion-item {
+    background: transparent;
+    border: none!important;
+    border-bottom:1px solid #fff!important;
+}
+.feedback-faq .accordion-body {
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+.feedback-faq .accordion-button:not(.collapsed) {
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+.feedback-faq  .accordion-button:focus {
+    border: none!important;
+    border-bottom: 0px solid #fff!important;
+    box-shadow: none;
+}
+.accordion-item:last-of-type {
+    border-radius:0px;
+}
+.accordion-button::after {
+    content:"";
+    background: url("../../../../assets/images/plus.png") no-repeat #ff9623;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    border-radius: 3px;
+  }
+  .accordion-button:not(.collapsed)::after {
+    content:"";
+    background: url("../../../../assets/images/minus.png") no-repeat #ff9623;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    border-radius: 3px;
+  }
+  span.our-benifitscnt {
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    padding: 9px 11px;
+    box-shadow: 0px 2px 0px #db6f02;
+}
+
+span.our-benifitscnt i {
+    background: #db6f02;
+    padding: 5px 5px 3px 5px;
+    border-radius: 100%;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 5px;
+}

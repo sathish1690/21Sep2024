@@ -1,0 +1,169 @@
+<section class="project-section pt-5 pb-5" id="projects">
+    <div class="container">
+        <div class="row">
+          <div class="col col-md-3 col-6 col-lg-3 text-center">
+            <p><img src="../../../../assets/images/analysis.png" alt="analysis" class="img-fluid"></p>
+           <!-- <h3>4500</h3> -->
+              <p>Google Analytics</p>
+          </div>
+          <div class="col col-md-3 col-6 col-lg-3 text-center">
+            <p><img src="../../../../assets/images/semrush.png" alt="analysis" class="img-fluid"></p>
+            <!-- <h3>2500</h3> -->
+            <p>Semrush</p>
+          </div>
+          <div class="col col-md-3 col-6 col-lg-3 text-center">
+            <p><img src="../../../../assets/images/ads.png" alt="analysis" class="img-fluid"></p>
+            <!-- <h3>1500</h3>  -->
+            <p>Google ads</p>
+            
+          </div>
+          <div class="col col-md-3 col-6 col-lg-3 text-center">
+            <p><img src="../../../../assets/images/hubspot.png" alt="analysis" class="img-fluid"></p>
+            <!-- <h3>2500</h3> -->
+            <p>Hubspot </p>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section class="business-section pt-5 pb-5">
+    <div class="container">
+        <div class="getstarted">
+          <h2>Let's Get Your Project Started <span class="btn btn-primary connect-btn float-end"> Connect With us</span> </h2>
+        </div>
+    </div>
+  <div class="container mb-4 project-card">
+    <!--<div class="row">
+        <div class="col col-md-6 col-12">
+            <p></p>
+            </div>
+        <div class="container">
+            
+        <h5 class="project-subtitle text-center">Projects</h5>
+        <h4 class="project-title text-center">Making Your  Successful <br>Business With Us</h4>
+      <div class="col col-md-12 col-lg-8 offset-lg-2 align-self-center mt-4">
+            <div class="row">
+                <div class="btn-group p-0">
+                    <div class="btn btn-dark project-dtls"
+                        (click)="showDiv.uiux = !showDiv.uiux;showDiv.digitalmarketing = false;showDiv.webdesign = false;showDiv.webdevelop=false; onClick(1)" [ngClass]="{'active': tab==='tab1'}">
+                        UI/UX Design
+                    </div>
+                   
+                    <div class="btn btn-dark project-dtls" 
+                    (click)="showDiv.webdesign = !showDiv.webdesign;showDiv.uiux = false;showDiv.digitalmarketing = false;showDiv.webdevelop=false; onClick(2)" [ngClass]="{'active': tab==='tab2'}">
+                       Web Design
+                    </div>
+                    <div class="btn btn-dark project-dtls"
+                    (click)="showDiv.digitalmarketing = !showDiv.digitalmarketing;showDiv.uiux = false;showDiv.webdesign = false;showDiv.webdevelop=false; onClick(3)" [ngClass]="{'active': tab==='tab3'}">
+                    Digital Marketing
+                </div>
+                    <div class="btn btn-dark project-dtls" 
+                    (click)="showDiv.webdevelop = !showDiv.webdevelop;showDiv.uiux = false;showDiv.digitalmarketing = false;showDiv.webdesign=false; onClick(4)" [ngClass]="{'active': tab==='tab4'}">
+                       Web Development
+                    </div>
+                </div>
+                <div *ngIf="showDiv.uiux">
+                    <div class="card-project mt-4">
+                    <div class="row">
+                      
+                        <div class="col col-lg-6 col-md-6 col-12 p-0">
+                            <img src="../../../../assets/images/ui-ux.jpeg" alt="image" class ="img-fluid">
+                        </div>
+                        <div class="col col-lg-6 col-md-6 col-12 card-project-cnt p-3">
+                            <p class="mt-2">Some quick example text to build on the card title and make up the bulk of the card's content. Somo build on the card title and make up the bulk of the card's content. </p>
+                           <button class="btnexplore btn btn-primary">Explore More</button>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <div *ngIf="showDiv.webdesign">
+                    <div class="card-project mt-4">
+                    <div class="row">
+                      
+                        <div class="col col-lg-6 col-md-6 col-12 p-0">
+                            <img src="../../../../assets/images/webdesign.avif" alt="image" class="img-fluid">
+                        </div>
+                        <div class="col col-lg-6 col-md-6 col-12 card-project-cnt p-3">
+                            <p class="mt-2">Some quick example text to build on the card title and make up the bulk of the card's content. Somo build on the card title and make up the bulk of the card's content.Somo build on the card title and make up the bulk of the card's content. </p>
+                            <button class="btnexplore btn btn-primary">Explore More</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="showDiv.digitalmarketing">
+                    <div class="card-project mt-4">
+                    <div class="row">
+                      
+                        <div class="col col-lg-6 col-md-6 col-12 p-0">
+                            <img src="../../../../assets/images/digital.avif" alt="image" class="img-fluid">
+                        </div>
+                        <div class="col col-lg-6 col-md-6 col-12 card-project-cnt p-3">
+                            <p class="mt-2">Some quick example text to build on the card title and make up the bulk of the card's content. Somo build on the card title and make up the bulk of the card's content. </p>
+                            <button class="btnexplore btn btn-primary">Explore More</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="showDiv.webdevelop">
+                    <div class="card-project mt-4">
+                    <div class="row">
+                       
+                        <div class="col col-lg-6 col-md-6 col-12">
+                            <img src="../../../../assets/images/webdevelop.avif" alt="image" class="img-fluid">
+                        </div>
+                        <div class="col col-lg-6 col-md-6 col-12 card-project-cnt p-3">
+                            <p class="mt-2">Some quick example text to build on the card title and make up the bulk of the card's content. Somo build on the card title and make up the bulk of the card's content. </p>
+                            <button class="btnexplore btn btn-primary">Explore More</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+      </div>
+     
+    </div>-->
+    <div class="row mt-5 mb-5">
+      <h4 class="project-title text-center mb-4">Making Your  Successful <br>Business With Us</h4>
+
+         <div class="col col-12 col-lg-3 col-md-3 col-sm-6 card1">
+            <div class="card text-center">
+                <div class="card-body">
+                    <span class="card-num">1</span> 
+                  <h5 class="card-title">Comprehending Project Needs </h5>
+                  <p class="card-text">Needs We engage with our clients to review project objectives, market dynamics, competition, and the present scenario.</p>
+                </div>
+              </div>
+         </div>
+         <div class="col col-12 col-lg-3 col-md-3 col-sm-6 card2">
+            <div class="card text-center">
+                <div class="card-body">
+                    <span class="card-num"> 2</span>
+                  <h5 class="card-title">Creating a Customized Strategy </h5>
+                  <p class="card-text">Following our consultation, we develop a tailored plan that aligns with our client's specific needs</p>
+                </div>
+              </div>
+         </div>
+         <div class="col col-12 col-lg-3 col-md-3 col-sm-6 card1">
+            <div class="card text-center">
+                <div class="card-body">
+                    <span class="card-num"> 3</span>
+                  <h5 class="card-title">Commencing the Implementation </h5>
+                  <p class="card-text">Subsequently, we initiate the project and commence website optimization. We diligently track and update our clients on the progress we achieve.</p>
+                </div>
+              </div>
+         </div>
+         <div class="col col-12 col-lg-3 col-md-3 col-sm-6 card2">
+            <div class="card text-center">
+                <div class="card-body">
+                    <span class="card-num"> 4</span>
+                  <h5 class="card-title">Achieving Outcomes </h5>
+                  <p class="card-text">We are committed to implementing all necessary steps to support you in attaining your desired results.</p>
+                </div>
+              </div>
+         </div>
+    </div>
+</div>
+</section>
+

@@ -1,0 +1,71 @@
+.requestquote-form {
+    min-width: 150px;
+    width: 100%;
+    background: transparent;
+  }
+  .requestquote{
+   background:  #182132;
+   
+  }
+  
+  .requestquotes{
+    background: url(../../../../assets/images/buble.png) no-repeat top -75px right -65px #030617;
+    padding: 60px 30px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .requestquotes h3{
+    font-weight: 600;
+    color: #fff;
+    margin: 0px;
+  }
+  .requestquotes p{
+    color: #fff;
+    font-size: 13px;
+  }
+.requestquotes span.material-symbols-outlined {
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+  }
+  ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background: transparent!important;
+    color: #fff!important;
+    border-bottom: 2px solid #fff!important;
+  }
+  .requestquote-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .register-form label {
+    color: #fff;
+    margin-top: 10px
+}
+input.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid  #fff;
+  border-radius: 0px;
+  padding: 4px;
+  color: #fff;
+}
+button.btn.btn-primary {
+  background: linear-gradient(to bottom, #ff9623, #db6f02);
+  border: navajowhite;
+}
+textarea.form-control {
+  border: 1px solid #fff;
+  background: transparent;
+  margin-top: 10px;
+  color:#fff
+}
+
+.form-control:focus {
+  background: transparent!important;
+  box-shadow: none;
+}
+.requestquotes-tit p{
+color: #fff;
+}

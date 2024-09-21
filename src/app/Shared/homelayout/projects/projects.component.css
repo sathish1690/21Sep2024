@@ -1,0 +1,138 @@
+.project-section{
+    background: #182132;
+}
+.project-section p{
+color: #fff;
+font-size: 14px;
+}
+.project-section h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.project-section span.material-symbols-outlined {
+    color: #fa962c;;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.business-section{
+    background:url(../../../../assets/images/projectbg.png)no-repeat #010715 center;
+    padding: 50px 0px;
+    background-size: cover;
+}
+.business-section .container{
+    position: relative;
+}
+.getstarted{
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    top: -81px;
+    padding: 15px;
+    width: 96%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.connect-btn, .connect-btn:hover{
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    margin-top: 0px;
+}
+.getstarted h2{
+    margin: 0px;
+    font-size: 24px;
+}
+.project-subtitle{
+    color: #fa962c;;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.project-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.project-dtls{
+    background: #182133;
+    padding: 15px;
+    border-radius: 0px;
+    margin-right: 8px;
+}
+.btn.btn-dark.project-dtls.active {
+    background: #db6f02;
+    color: #333;
+    font-weight: 500;
+}
+.card-project {
+    background: #182132;
+    color: #fff;
+}
+button.btnexplore.btn.btn-primary {
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    width: 50%;
+    color: #333;
+    font-weight: 500;
+    border: none;
+}
+.card-project-cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #182132;
+}
+.card {
+    height: 100%;
+    padding: 20px;
+}
+.project-dtls.btn-dark:last-child{
+ margin-right: 0px;
+}
+.project-card .card{
+background: url(../../../../assets/images/buble.png) no-repeat top -98px right -99px #182132;
+border-radius: 3px;
+}
+.project-card h5.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}
+
+.project-card .card-body {
+    padding: 0px;
+}
+.project-card p.card-text {
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #fff;
+}
+section#projects img {
+    height:60px;
+}
+.card-num {
+    position: absolute;
+    top: -11px;
+    color: #333;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(to bottom, #ff9623, #db6f02);
+    border-radius: 100%;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+}
+.card1 {
+    position: relative;
+    top: 45px;
+}

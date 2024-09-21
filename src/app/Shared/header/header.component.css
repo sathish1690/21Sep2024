@@ -1,0 +1,68 @@
+nav.navbar.custom-nav {
+    background:#010715;
+    padding: 0px;
+}
+.custom-nav a.nav-link {
+    color: #fff;
+    font-size: 14px;
+}
+a.navbar-brand {
+    color: #fff;
+}
+.custom-nav .container-fluid{
+ padding-left: 0px;
+}
+li.nav-item {
+    font-size: 15px;
+}
+.nav-logo {
+    position: relative;
+    background-image:linear-gradient(to right, #ff9623, #db6f02);
+    padding: 8px;
+    margin: 0px;
+}
+a.navbar-brand img{
+    width: 169px;
+}
+a.nav-link.btn.btn-primary {
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+}
+.navbar-row{
+    width: 100%;
+}
+button.navbar-toggler i{
+    color: #fff;
+}
+.header-nav {
+    background: #182132;
+}
+/* a.navbar-brand:after {
+    content: ' ';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0px;
+    left:100%;
+    border-bottom: solid 0px transparent;
+    border-left: solid 44px #db6f02;
+    border-right: solid 23px transparent;
+    border-top: solid 97px transparent;
+    z-index: 0;
+} */
+.header-support li{
+    font-size:  13px;
+    color: #fff;
+}
+.header-support span {
+    color: #fff;
+}
+i.fa-brands.fa-facebook-f {
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    padding: 6px 9px 6px 9px;
+    border-radius: 85%;
+}
+i.fa-brands.fa-twitter, i.fa-brands.fa-instagram {
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    padding: 6px 7px 6px 7px;
+    border-radius: 85%;
+}
